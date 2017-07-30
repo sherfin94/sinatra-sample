@@ -6,6 +6,7 @@ get '/' do
   response = {
     chits: [
       {
+        id: '1',
         name: 'KSFE Chit fund',
         location: 'Aluva',
         amount: '100000',
@@ -13,6 +14,7 @@ get '/' do
         months: 18
       },
       {
+        id: '2',
         name: 'KSFE Chit fund',
         location: 'Aluva',
         amount: '1000000',
@@ -20,6 +22,7 @@ get '/' do
         months: 18
       },
       {
+        id: '3',
         name: 'KSFE Chit fund',
         location: 'Aluva',
         amount: '7000000',
@@ -27,6 +30,7 @@ get '/' do
         months: 18
       },
       {
+        id: '4',
         name: 'KSFE Chit fund',
         location: 'Aluva',
         amount: '4000000',
@@ -34,6 +38,7 @@ get '/' do
         months: 18
       },
       {
+        id: '5',
         name: 'KSFE Chit fund',
         location: 'Aluva',
         amount: '5000000',
